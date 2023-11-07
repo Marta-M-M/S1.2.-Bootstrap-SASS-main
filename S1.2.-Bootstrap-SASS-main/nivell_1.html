@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nivell 1</title>
+  <link rel="stylesheet" href="sass/main.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</head>
+
+<body>
+
+  <!--Navbar imagen + texto -->
+
+  <nav class="navbar navbar-expand-lg fixed-top bg-white navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="Recursos projecte/Imagenes/logo-bookmark.svg" alt="" width="120" height="25"
+          class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#!"><i class="fas fa-plus-circle pe-2"></i>Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#!"><i class="fas fa-bell pe-2"></i>Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#!"><i class="fas fa-heart pe-2"></i>Contact</a>
+          </li>
+          <li class="nav-item ms-3">
+            <!--<a class="btn btn-black btn-rounded" href="#!">Log in</a>-->
+            <button class="btn btn-secondary navbar-btn">Login</button>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Responsive left-aligned hero with image-->
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./Recursos projecte/Imagenes/illustration-hero.svg" class="d-block mx-auto img-fluid w-100" alt=""
+          loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <div class="lc-block mb-3">
+          <div editable="rich">
+            <h2 class="fw-bold display-5">A simple Bookmark Manager</h2>
+          </div>
+        </div>
+
+        <div class="lc-block mb-3">
+          <div editable="rich">
+            <p class="lead">A clean and simple interface to organize your favourite webesites. Open a new browser tab
+              and see yout sites load instantly. Try it free.
+            </p>
+          </div>
+        </div>
+
+        <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-start"><a class="btn btn-primary px-4 me-md-2"
+            href="#" role="button">Get it on Chrome</a>
+          <a class="btn btn-outline-secondary px-4" href="#" role="button">Get it on Firefox</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Apartat features-->
+
+  <section class="py-5 py-xl-8">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+          <h2 class="mb-4 fw-bold text-center display-6">Features</h2>
+          <p class="text mb-3 text-center">Our aim is to make it quick and easy for you to access your favourite
+            websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+          <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+        </div>
+      </div>
+    </div>
+
+    <!-- Apartado features original-->
+    <div class="contenedor overflow-hidden">
+      <div class="row gy-5 gx-md-4 gy-lg-0 gx-xxl-5 justify-content-center text-center">
+        <ul class="ul justify-content-center text-center">
+          <div class="col-12 col-sm-12 col-lg-3 justify-content-center text-center">
+            <li class="li activo">Simple Bookmarking</li>
+            <!--<h4 class="mb-1 text-center">Simple Bookmarking</h4>-->
+          </div>
+          <div class="col-12 col-sm-12 col-lg-3">
+            <li class="li">Speedy Searching </li>
+            <!--<h4 class="mb-1 text-center">Speedy Searching</h4>-->
+          </div>
+          <div class="col-12 col-sm-12 col-lg-3">
+            <li class="li">Easy Sharing</li>
+            <!--<h4 class="mb-1 text-center">Easy Sharing</h4>-->
+          </div>
+        </ul>
+
+        <div class="subcontenedor">
+          <div class="bloque activo">
+
+            <!--Primera TAB 1-->
+            <div class="container1 col-xxl-8 px-4 py-5">
+              <div class="row align-items-center g-5 py-5">
+                <div class="col-12 col-md-6 col-lg-6">
+                  <img src="./Recursos projecte/Imagenes/illustration-features-tab-1.svg"
+                    class="d-block mx-auto img-fluid" alt="" loading="lazy">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="lc-block mb-3">
+                    <div editable="rich">
+                      <h2 class="fw-bold display-6">Bookmark in one click</h2>
+                    </div>
+                  </div>
+
+                  <div class="lc-block mb-3">
+                    <div editable="rich">
+                      <p class="lead">Organize your bookmarks however you like. Our simple drag-and-drop interface gives
+                        you
+                        complete control over how you manage your favorite sites.</p>
+                    </div>
+                  </div>
+
+                  <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-center" id="boton-esconder">
+                    <a class="btn btn-primary px-4 me-md-2" href="#" role="button">More info</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="bloque">
+            <!--Segunda TAB 2-->
+            <div class="container1 col-xxl-8 px-4 py-5">
+              <div class="row align-items-center g-5 py-5">
+                <div class="col-12 col-md-6 col-lg-6">
+                  <img src="./Recursos projecte/Imagenes/illustration-features-tab-2.svg"
+                    class="d-block mx-auto img-fluid" alt="" loading="lazy">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="lc-block mb-3">
+                    <div editable="rich">
+                      <h2 class="fw-bold display-6">Intelligent search</h2>
+                    </div>
+                  </div>
+
+                  <div class="lc-block mb-3">
+                    <div editable="rich">
+                      <p class="lead">Our powerful search feature will help you find saved sites in no time at all. No
+                        need to trawl through all of your bookmarks.</p>
+                    </div>
+                  </div>
+
+                  <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-center" id="boton-esconder">
+                    <a class="btn btn-primary px-4 me-md-2" href="#" role="button">More info</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="bloque">
+            <!--Tercera TAB 3-->
+            <div class="container1 col-xxl-8 px-4 py-5">
+              <div class="row align-items-center g-5 py-5">
+                <div class="col-12 col-md-6 col-lg-6">
+                  <img src="./Recursos projecte/Imagenes/illustration-features-tab-3.svg"
+                    class="d-block mx-auto img-fluid" alt="" loading="lazy">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="lc-block mb-3">
+                    <div editable="rich">
+                      <h2 class="fw-bold display-6">Share your bookmarks</h2>
+                    </div>
+                  </div>
+
+                  <div class="lc-block mb-3">
+                    <div editable="rich">
+                      <p class="lead">Easily share your bookmarks and collections with others. Create a sheareable link
+                        that you can send at the click of a button.</p>
+                    </div>
+                  </div>
+
+                  <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-center" id="boton-esconder">
+                    <a class="btn btn-primary px-4 me-md-2" href="#" role="button">More info</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+
+  </section>
+
+  <!--Area de descargas-->
+
+  <section class="py-5 py-xl-8">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+          <h2 class="mb-4 fw-bold text-center display-6">Download the extension</h2>
+          <p class="text mb-3 text-center">We've got more browsers in the pipeline. Please do le us know if you've got a
+            favourite you'd like us to prioritize.</p>
+          <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+        </div>
+      </div>
+    </div>
+
+    <!--Cards con Foto-->
+    <div class="container"></div>
+    <div class="row justify-content-center align-items-center">
+
+      <div class="col-12 col-md-6 col-lg-3 mb-5">
+        <div class="card card-block">
+          <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+            src="./Recursos projecte/Imagenes/logo-chrome.svg" data-holder-rendered="true"
+            style="height: 120px; width: auto; display: block; margin: 0 auto;">
+          <div class="card-block text-center">
+            <h4 class="card-title">Add to Chrome</h4>
+            <p class="card-text">Minimum version 62</p>
+            <a href="#" class="btn btn-primary">Add and install extension</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 mb-5">
+        <div class="card card-block">
+          <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+            src="./Recursos projecte/Imagenes/logo-firefox.svg" data-holder-rendered="true"
+            style="height: 120px; width: auto; display: block; margin: 0 auto;;">
+          <div class="card-block text-center">
+            <h4 class="card-title">Add to Firefox</h4>
+            <p class="card-text">Minimum version 55</p>
+            <a href="#" class="btn btn-primary">Add and install extension</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 mb-5">
+        <div class="card card-block text-center">
+          <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+            src="./Recursos projecte/Imagenes/logo-opera.svg" data-holder-rendered="true"
+            style="height: 120px; width: auto; display: block; margin: 0 auto;">
+          <div class="card-block">
+            <h4 class="card-title">Add to Opera</h4>
+            <p class="card-text">Minimum version 46</p>
+            <a href="#" class="btn btn-primary">Add and install extension</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FAQS-->
+    <section class="py-5 py-xl-8 pb-0">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+            <h2 class="mb-4 fw-bold text-center display-6">Frequently Asked Questions</h2>
+            <p class="text mb-3 text-center">Here are some of our FAQs. If you have any other questions you'd like
+              answered please feel free to email us.</p>
+            <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+          </div>
+        </div>
+      </div>
+
+      <!--Acordeón-->
+
+      <div class="row">
+        <div class="col-lg-9 mx-auto">
+          <!-- Accordion -->
+          <div id="accordionExample" class="accordion shadow">
+
+            <!-- Accordion item 1 -->
+            <div class="card">
+              <div id="headingOne" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne"
+                    class="d-block position-relative text-black collapsible-link py-2">What is
+                    Bookmark?</a></h6>
+              </div>
+              <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse show">
+              </div>
+            </div>
+
+            <!-- Accordion item 2 -->
+            <div class="card">
+              <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo"
+                    class="d-block position-relative collapsed text-black collapsible-link py-2">How can I
+                    request a new browser?</a></h6>
+              </div>
+              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+              </div>
+            </div>
+
+            <!-- Accordion item 3 -->
+            <div class="card">
+              <div id="headingThree" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree"
+                    class="d-block position-relative collapsed text-black collapsible-link py-2">Is there
+                    a mobile app?</a></h6>
+              </div>
+              <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+              </div>
+            </div>
+
+            <!-- Accordion item 4 -->
+            <div class="card">
+              <div id="headingThree" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree"
+                    class="d-block position-relative collapsed text-black collapsible-link py-2">What
+                    about other Chromium browsers?</a></h6>
+              </div>
+              <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container"></div>
+        <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-center mt-5">
+          <div class="mb-3">
+            <a class="btn btn-primary px-4 me-md-2" href="#" role="button">More Info</a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+      <!--footer start-->
+
+      <div class="container-fluid pb-0 mb-0 justify-content-center text-light footer-blue-background ">
+        <div class="row my-5 justify-content-center ">
+          <div class="col text-center ">
+            <div class="card border-0 ">
+              <div class="card-body footer-blue-background">
+                <div class="card-title">
+                  <p class="small color-text">35.000 ALREADY JOINED</p>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-md-4 col">
+                    <h3 class="mb-4">Stay up-to-date with what we're doing</h3> <br>
+                  </div>
+                </div>
+              </div>
+
+
+              <!---FORM EMAIL validation -->
+
+              <form class="d-flex align-items-center footer-blue-background needs-validation" novalidate>
+
+                <div class="mb-3 me-3 position-relative">
+                  <label for="exampleInputEmail1" class="form-label"></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter Email Adress" required>
+                  <div id="emailHelp" class="form-text"></div>
+                  <div class="valid-tooltip">TODO OK</div>
+                  <div class="invalid-tooltip">ERROR PONER EMAIL</div>
+                </div>
+                <button type="submit" class="btn btn-secondary border-0 my-4"><b>Contact us</b></button>
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <footer>
+
+        <div class="row justify-content-center mt-0 pt-0 row-1 mb-0  px-sm-3 px-2">
+          <div class="col-12" id="footer2">
+            <div class="row my-4 row-1 no-gutters">
+              <div class="col-12 col-md-3 col-auto text-left mb-3-md-0" id="bookmark-logo">
+                <img src="./Recursos projecte/Imagenes/logo-bookmark-b.svg" class="img-fluid" width="120" height="25">
+
+              </div>
+
+              <div class="col-12 col-md-3 col-auto mb-1 mb-md-0 footer-elementos">
+                <medium>FEATURES</medium>
+              </div>
+
+              <div class="col-12 col-md-3 col-auto mb-1 mb-md-0 footer-elementos">
+                <medium>PRICING</medium>
+              </div>
+
+              <div class="col-12 col-md-3 col-auto mb-1 mb-md-0 footer-elementos">
+                <medium>CONTACT</medium>
+              </div>
+
+              <div class="col-12 col-md-3 col-auto text-center mb-3-md-0">
+                <small>
+                  <span class="d-block d-md-none text-center mb-1">
+                    <img src="./Recursos projecte/Imagenes/icon-facebook.svg" class="img-fluid" width="25">
+                    <img src="./Recursos projecte/Imagenes/icon-twitter.svg" class="img-fluid" width="25">
+                  </span>
+                  <span class="d-none d-md-block  mb-0">
+                    <img src="./Recursos projecte/Imagenes/icon-facebook.svg" class="img-fluid" width="25">
+                    <img src="./Recursos projecte/Imagenes/icon-twitter.svg" class="img-fluid" width="25">
+                  </span>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </footer>
+      </div>
+
+      <!--Vincular Javascript a nuestro proyecto -->
+      <script src="js/n1.js"> </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+          'use strict'
+
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.querySelectorAll('.needs-validation')
+
+          // Loop over them and prevent submission
+          Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+              form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                  console.log("funciona");
+                  event.preventDefault()
+                  event.stopPropagation()
+
+                }
+
+                form.classList.add('was-validated')
+              }, false)
+            })
+        })()
+
+      </script>
+
+</body>
+
+</html>
